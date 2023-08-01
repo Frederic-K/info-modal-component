@@ -66,7 +66,7 @@ export default function InfoModalComponent({
   const stylesTitle = {
     width: '100%',
     textAlign: TitleTextAlign,
-    padding: '15px 15px 0px 15px',
+    paddingTop: '15px',
     color: TitleTextColor,
     fontSize: '1.3rem',
     fontWeight: '500',
@@ -75,7 +75,7 @@ export default function InfoModalComponent({
   const stylesInformation = {
     width: '100%',
     textAlign: InformationTextAlign,
-    padding: '0px 15px 15px 15px',
+    paddingBottom: '15px',
     color: InformationTextColor,
     fontSize: '1.3rem',
     fontWeight: '500',
@@ -152,7 +152,6 @@ export default function InfoModalComponent({
 }
 
 InfoModalComponent.propTypes = {
-  setIsModalOpen: PropTypes.bool,
   title: PropTypes.string,
   information: PropTypes.string,
   modalBg: PropTypes.string,
@@ -167,7 +166,6 @@ InfoModalComponent.propTypes = {
 }
 
 InfoModalComponent.defaultProps = {
-  setIsModalOpen: 'false',
   title: 'Modal Title',
   information: 'Modal information',
   modalBg: 'white',

@@ -66,7 +66,7 @@ function InfoModalComponent(_ref) {
   var stylesTitle = {
     width: '100%',
     textAlign: TitleTextAlign,
-    padding: '15px 15px 0px 15px',
+    paddingTop: '15px',
     color: TitleTextColor,
     fontSize: '1.3rem',
     fontWeight: '500'
@@ -74,7 +74,7 @@ function InfoModalComponent(_ref) {
   var stylesInformation = {
     width: '100%',
     textAlign: InformationTextAlign,
-    padding: '0px 15px 15px 15px',
+    paddingBottom: '15px',
     color: InformationTextColor,
     fontSize: '1.3rem',
     fontWeight: '500'
@@ -139,7 +139,6 @@ function InfoModalComponent(_ref) {
   }, "OK"))));
 }
 InfoModalComponent.propTypes = {
-  setIsModalOpen: _propTypes.PropTypes.bool,
   title: _propTypes.PropTypes.string,
   information: _propTypes.PropTypes.string,
   modalBg: _propTypes.PropTypes.string,
@@ -153,7 +152,6 @@ InfoModalComponent.propTypes = {
   hoverConfirmBtn: _propTypes.PropTypes.string
 };
 InfoModalComponent.defaultProps = {
-  setIsModalOpen: 'false',
   title: 'Modal Title',
   information: 'Modal information',
   modalBg: 'white',
