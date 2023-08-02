@@ -31,6 +31,7 @@ export default function InfoModalComponent({
 
   const stylesContainer = {
     width: '25vw',
+    minWidth: '200px',
     position: 'relative',
     display: 'flex',
     flexDirection: 'column',
@@ -59,7 +60,6 @@ export default function InfoModalComponent({
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
-    alignItems: 'flex-start',
     gap: '10px',
   }
 
