@@ -124,11 +124,8 @@ function InfoModalComponent(_ref) {
   }, title), /*#__PURE__*/React.createElement("div", {
     style: stylesInformation
   }, information)), /*#__PURE__*/React.createElement("button", {
-    // className={styles.confirmationBtn}
     onMouseEnter: handleValidationBtnMouseEnter,
-    onMouseLeave: handleValidationBtnMouseLeave
-    // onMouseOver={handleMouseOver}
-    ,
+    onMouseLeave: handleValidationBtnMouseLeave,
     style: stylesConfirmationBtn,
     type: "button",
     onClick: function onClick() {
