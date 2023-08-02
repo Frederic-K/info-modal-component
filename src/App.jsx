@@ -50,7 +50,7 @@ function App() {
           modalBg={
             'radial-gradient(circle, rgba(255, 246, 235, 1) 0%, rgba(255, 228, 196, 1) 70%)'
           }
-          TitleTextAlign={'right'}
+          TitleTextAlign={'center'}
           TitleTextColor={'#00bc77'}
           InformationTextAlign={'center'}
           InformationTextColor={'#257b5a'}

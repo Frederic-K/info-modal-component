@@ -64,18 +64,16 @@ export default function InfoModalComponent({
   }
 
   const stylesTitle = {
-    width: '100%',
     textAlign: TitleTextAlign,
-    paddingTop: '15px',
+    padding: '15px 15px 0px 15px',
     color: TitleTextColor,
     fontSize: '1.3rem',
     fontWeight: '500',
   }
 
   const stylesInformation = {
-    width: '100%',
     textAlign: InformationTextAlign,
-    paddingBottom: '15px',
+    padding: '0px 15px 15px 15px',
     color: InformationTextColor,
     fontSize: '1.3rem',
     fontWeight: '500',
@@ -133,10 +131,8 @@ export default function InfoModalComponent({
           </div>
 
           <button
-            // className={styles.confirmationBtn}
             onMouseEnter={handleValidationBtnMouseEnter}
             onMouseLeave={handleValidationBtnMouseLeave}
-            // onMouseOver={handleMouseOver}
             style={stylesConfirmationBtn}
             type="button"
             onClick={() => {

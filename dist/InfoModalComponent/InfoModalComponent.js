@@ -34,6 +34,7 @@ function InfoModalComponent(_ref) {
   };
   var stylesContainer = {
     width: '25vw',
+    minWidth: '200px',
     position: 'relative',
     display: 'flex',
     flexDirection: 'column',
@@ -60,21 +61,18 @@ function InfoModalComponent(_ref) {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-around',
-    alignItems: 'flex-start',
     gap: '10px'
   };
   var stylesTitle = {
-    width: '100%',
     textAlign: TitleTextAlign,
-    paddingTop: '15px',
+    padding: '15px 15px 0px 15px',
     color: TitleTextColor,
     fontSize: '1.3rem',
     fontWeight: '500'
   };
   var stylesInformation = {
-    width: '100%',
     textAlign: InformationTextAlign,
-    paddingBottom: '15px',
+    padding: '0px 15px 15px 15px',
     color: InformationTextColor,
     fontSize: '1.3rem',
     fontWeight: '500'
