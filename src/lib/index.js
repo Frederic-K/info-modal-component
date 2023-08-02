@@ -1,3 +1,3 @@
-import InfoModalComponent from './InfoModalComponent/InfoModalComponent'
+import InfoModal from './InfoModalComponent/InfoModalComponent'
 
-export { InfoModalComponent }
+export { InfoModal }

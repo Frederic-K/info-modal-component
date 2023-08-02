@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-
-import { InfoModalComponent } from './lib'
+import { InfoModal } from './lib'
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -43,10 +42,10 @@ function App() {
         Open Modal
       </button>
       {isModalOpen ? (
-        <InfoModalComponent
+        <InfoModal
           setIsModalOpen={setIsModalOpen}
-          title={'Hello World'}
-          information={'Welcome !!!'}
+          title={'HELLO WORLD'}
+          information={'WELLCOME'}
           modalBg={
             'radial-gradient(circle, rgba(255, 246, 235, 1) 0%, rgba(255, 228, 196, 1) 70%)'
           }

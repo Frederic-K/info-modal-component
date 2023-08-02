@@ -3,9 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.default = InfoModalComponent;
+exports.default = InfoModal;
+var _react = _interopRequireDefault(require("react"));
 var _propTypes = require("prop-types");
-function InfoModalComponent(_ref) {
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function InfoModal(_ref) {
   var setIsModalOpen = _ref.setIsModalOpen,
     title = _ref.title,
     information = _ref.information,
@@ -104,26 +106,26 @@ function InfoModalComponent(_ref) {
     e.target.style.background = 'rgb(0, 0, 0, 1)';
     e.target.style.color = 'rgb(255, 255, 255, 1)';
   };
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement("div", {
     style: stylesBg
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     style: stylesPosition
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     style: stylesContainer
-  }, /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/_react.default.createElement("button", {
     onMouseEnter: handleCloseBtnMouseEnter,
     onMouseLeave: handleCloseBtnMouseLeave,
     style: stylesCloseBtn,
     onClick: function onClick() {
       setIsModalOpen(false);
     }
-  }, "X"), /*#__PURE__*/React.createElement("div", {
+  }, "X"), /*#__PURE__*/_react.default.createElement("div", {
     style: stylesContent
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     style: stylesTitle
-  }, title), /*#__PURE__*/React.createElement("div", {
+  }, title), /*#__PURE__*/_react.default.createElement("div", {
     style: stylesInformation
-  }, information)), /*#__PURE__*/React.createElement("button", {
+  }, information)), /*#__PURE__*/_react.default.createElement("button", {
     onMouseEnter: handleValidationBtnMouseEnter,
     onMouseLeave: handleValidationBtnMouseLeave,
     style: stylesConfirmationBtn,
@@ -133,7 +135,7 @@ function InfoModalComponent(_ref) {
     }
   }, "OK"))));
 }
-InfoModalComponent.propTypes = {
+InfoModal.propTypes = {
   title: _propTypes.PropTypes.string,
   information: _propTypes.PropTypes.string,
   modalBg: _propTypes.PropTypes.string,
@@ -146,9 +148,9 @@ InfoModalComponent.propTypes = {
   borderConfirmBtn: _propTypes.PropTypes.string,
   hoverConfirmBtn: _propTypes.PropTypes.string
 };
-InfoModalComponent.defaultProps = {
-  title: 'Modal Title',
-  information: 'Modal information',
+InfoModal.defaultProps = {
+  title: 'MODAL TITLE',
+  information: 'MODAL INFO',
   modalBg: 'white',
   hoverCloseBtn: 'rgb(245, 198, 39, 1)',
   TitleTextAlign: 'left',

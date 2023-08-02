@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "InfoModalComponent", {
+Object.defineProperty(exports, "InfoModal", {
   enumerable: true,
   get: function get() {
     return _InfoModalComponent.default;

@@ -1,5 +1,6 @@
+import React from 'react'
 import { PropTypes } from 'prop-types'
-export default function InfoModalComponent({
+export default function InfoModal({
   setIsModalOpen,
   title,
   information,
@@ -147,7 +148,7 @@ export default function InfoModalComponent({
   )
 }
 
-InfoModalComponent.propTypes = {
+InfoModal.propTypes = {
   title: PropTypes.string,
   information: PropTypes.string,
   modalBg: PropTypes.string,
@@ -161,9 +162,9 @@ InfoModalComponent.propTypes = {
   hoverConfirmBtn: PropTypes.string,
 }
 
-InfoModalComponent.defaultProps = {
-  title: 'Modal Title',
-  information: 'Modal information',
+InfoModal.defaultProps = {
+  title: 'MODAL TITLE',
+  information: 'MODAL INFO',
   modalBg: 'white',
   hoverCloseBtn: 'rgb(245, 198, 39, 1)',
   TitleTextAlign: 'left',
