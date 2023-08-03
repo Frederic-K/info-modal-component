@@ -1,6 +1,6 @@
 {
   "name": "info-modal-component",
-  "version": "0.1.9",
+  "version": "0.2.1",
   "main": "dist/index.js",
   "private": false,
   "files": [
