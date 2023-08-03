@@ -1,13 +1,13 @@
 # Modal - React Component
 
-![Author](https://img.shields.io/badge/Author--Frederic-K--")
+![Author](https://img.shields.io/badge/Author--Frederic--")
 ![GitHub repo size](https://img.shields.io/github/repo-size/Frederic-K/info-modal-component)
 ![GitHub top language](https://img.shields.io/github/languages/top/Frederic-K/info-modal-component)
 ![GitHub language count](https://img.shields.io/github/languages/count/Frederic-K/info-modal-component)
 
 ## General information
 
-An user-friendly, lightweight and customisable pop up which display your message in a modal
+An user-friendly, lightweight and customizable pop up which display your message in a modal
 
 ## Install & Setup
 
@@ -82,7 +82,7 @@ const [isModalOpen, setIsModalOpen] = useState(false)
 | `information`          | `string` | `message of your modal (i.e 'Welcome')`                                     |
 | `modalBg`              | `string` | `colour value of your modal's background (i.e '#ffffff')`                   |
 | `TitleTextAlign`       | `string` | `position of your text (i.e 'left', 'center' or 'right')`                   |
-| `TitleTextColor`       | `string` | `colour value of your modal's title (i.e ' #0000FF')`                       |
+| `TitleTextColor`       | `string` | `colour value of your modal's title (i.e '#0000FF')`                        |
 | `InformationTextAlign` | `string` | `position of your text (i.e 'left', 'center' or 'right')`                   |
 | `InformationTextColor` | `string` | `colour value of your modal's message (i.e ' #0000FF')`                     |
 | `ValidationBtnBgColor` | `string` | `colour value of your modal's validation button background (i.e '#ffffff')` |
@@ -91,6 +91,10 @@ const [isModalOpen, setIsModalOpen] = useState(false)
 ## Exemple
 
 ```javascript
+import React from 'react'
+import { useState } from 'react'
+import { InfoModal } from 'info-modal-component'
+
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
