@@ -1,6 +1,6 @@
 # Modal - React Component
 
-![Author](https://img.shields.io/badge/Author--Frederic--")
+![Author](https://img.shields.io/badge/Author--Frederic-K--")
 ![GitHub repo size](https://img.shields.io/github/repo-size/Frederic-K/info-modal-component)
 ![GitHub top language](https://img.shields.io/github/languages/top/Frederic-K/info-modal-component)
 ![GitHub language count](https://img.shields.io/github/languages/count/Frederic-K/info-modal-component)
